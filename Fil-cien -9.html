@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/night.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css" >
+						<link rel="stylesheet" href="css/estilo.css">
+
+
+		<!-- Printing and PDF exports -->
+<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+<body>
+<div class="reveal">
+<div class="slides">
+
+
+
+
+<section  data-background-image ="img/esmeralda.jpg"><h3 class="highlightred">El nuevo problema de la inducción</h3>     <div class=" flexbox-container">
+
+	<div class="nombre highlightred">Juan Camilo Espejo Serna <br>Universidad de la Sabana</div>       <aside class="notes">Esta es la forma de poner notas en las diapositivas
+	</aside>
+
+			 </div>
+
+
+
+
+</section>
+
+
+<section><h2>Orden del día</h2>
+	<ol>
+		<li class="fragment fade-up">"Más allá de la experiencia"</li>
+		<li class="fragment fade-up">Paradoja de los cuervos</li>
+<li class="fragment fade-up">Verdul y azurde</li>
+<li class="fragment fade-up">Disolver el problema</li>
+
+	</ol>
+
+</section>
+
+
+	<section  data-background-image ="img/hume.jpg"><h3 class="highlightred">"Más allá de la experiencia"</h3>
+
+
+</section>
+
+	<section><blockquote>No hay objeto que implique la existencia de otro, si consideramos estos objetos en sí mismos y no vamos nunca más allá de las ideas que de ellos nos formamos. (THU: 87)</blockquote> <blockquote>Cuando pasamos de una impresión presente a la idea de un objeto, podemos haber separado quizá la idea de la impresión y puesto otra en su lugar. <br>
+
+	Por consiguiente, sólo por EXPERIENCIA podemos inferir la existencia de un objeto de la de otro.(THU: 88)
+</blockquote>
+	</section>
+
+	<section><h4>Hume:</h4>Cuando la mente pasa de la idea o impresión de un objeto a la idea de otro, o creencia en él, no está determinada por la razón, sino por ciertos principios que asocian las ideas de estos objetos y las unen en la imaginación. <b>Si las ideas no tuvieran más unión en la imaginación que la que los objetos parecen tener en el entendimiento, jamás podríamos realizar una inferencia de las causas a los efectos ni basar nuestra creencia en ningún hecho.</b></section>
+
+<section>
+<h1 class="azul">Rojo</h1>
+	<h1 class="amarillo">Verde</h1>
+		<h1 class="rojo">Amarillo</h1>
+			<h1 class="verde">Azul</h1>
+
+
+	</section>
+
+
+<section><h3>El problema de Hume:</h3> se ofrece una forma en que la inducción sucede <br> pero no se muestra que está justificada.</section>
+
+
+<section>
+	<div class="doscuadros">¿cómo justificar una inferencia inductiva? <p class="fragment" data-fragment-index="3">Una inferencia <b>inductiva</b> está justificada cuando se ajusta a las reglas de la inferencia <b>inductiva</b></p></div>
+<div class="doscuadros fragment" data-fragment-index="1"> ¿cómo justificar una inferencia deductiva?  <p class="fragment" data-fragment-index="2">Una inferencia <b>deductiva</b> está justificada cuando se ajusta a las reglas de la inferencia <b>deductiva</b></p></div>
+
+	</section>
+
+	<section><blockquote>Los principios de inferencia deductiva están justificados gracias a su conformidad con la práctica deductiva aceptada. (63)</blockquote>
+	¿es esto circular? ¿es esto problemático?
+	</section>
+
+	<section  data-background-image ="img/play_laps.jpg">
+
+		<p class="highlightred trescuadros">¿cómo podría ser la relación entre las prácticas inferenciales y la justificación de inferencias particulares  no ser viciosa?</p>
+		<p class=" trescuadros highlightred"></p>
+<p class="fragment trescuadros highlightred"><i>Una regla es revisada si produce una inferencia que no estamos dispuestos a aceptar; una inferencia es rechazada si viola una regla que no estamos dispuestos a revisar</i> (64)</p>
+	</section>
+
+	<section><blockquote>El problema de la inducción no es el problema de demostración sino el problema de definir la diferencia entre las predicciones válidas y las inválidas (65) </blockquote></section>
+
+
+<section  data-background-image ="img/raven.jpg"><h3 class="highlightred">Paradoja de los cuervos</h3>
+
+	</section>
+
+
+<section>
+
+	<h3>Sugerencia:</h3>
+<p>Las reglas de la deducción 'en reversa' son las reglas de la inducción</p>
+	<div class="fragment">
+	<p> <i>Modus ponens: </i> p &#8594;q y p luego q
+		</p>
+	<p> <i>Modus ponens inverso: </i> p &#8594;q y q luego p
+ </p></div>
+	</section>
+
+	<section>
+
+	<h3>Problema:</h3>
+<p>Todo confirma todo</p>
+	<div class="fragment">
+	<p> <i>Eliminación de la conjunción: </i> p &#8743; q luego p // p &#8743; q luego q
+		</p>
+	<p> <i>Regla inversa: </i> p confirma p &#8743; q </p>
+		<p> <i>Regla inversa + Eliminación de la conjunción: </i> p confirma q </p>
+	</div>
+	</section>
+	<section>
+
+<h3>Sugerencia:</h3>
+<p>P confirma Q cuando P es una instancia de Q.</p>
+	<div class="fragment">
+	P: "María estudia en la sabana y usa ropa negra" <br>
+Q: "Todos los estudiantes de la sabana usan ropa negra"
+		</div>
+<p></p>
+
+	</section>
+
+
+
+	<section  data-background-image ="img/raven.jpg"><p class="highlightred "><p class="highlightred doscuadros">
+	P: "La silla no es un cuervo <br>y no es negra" <br>
+Q: "Todas las cosas no-negras <br>son no-cuervos" <br>
+Q': "Todos los cuervos <br>son negros"
+		</p>
+		<p class="highlightred doscuadros fragment">P es una instancia de Q <br> Q' &#8801; Q' <br> Por tanto: P confirma Q'</p>
+<h4 class="highlightpink doscuadros fragment">¿Cuál es el problema de decir que P confirma Q'?</h4>
+
+	</section>
+
+	<section><p class="highlightred "><p class="highlightred doscuadros">
+	P: "La silla no es un cuervo <br>y no es negra" <br>
+Q: "Todas las cosas no-negras <br>son no-cuervos" <br>
+Q': "Todos los cuervos <br>son negros"
+		</p>
+		<p class="highlightred doscuadros">P es una instancia de Q <br> Q' &#8801; Q' <br> Por tanto: P confirma Q'</p>
+<p class="doscuadros">P confirma que todas las cosas no-negras son no-cuervos <b>Y</b> que todas las cosas que no son cuervos no son negras </p>
+
+
+	</section>
+
+
+<section> <h4>Problema:</h4>
+<p>'A es negro' confirma 'Todo es negro' <br>'B es blanco' confirma 'Todo es blanco'<br> La conjunción de 'A es negro' y 'B es blanco' <br>confirma una contradicción</p>
+	</section>
+
+<section><h4>Solución</h4> La confirmación debe tomar en cuenta la totalidad de la evidencia disponible.
+	</section>
+
+
+
+
+	<section  data-background-image ="img/esmeralda.jpg"><h3 class="highlightred">Verdul y azurde</h3>
+
+</section>
+
+
+<section>
+
+En un tiempo T, tenemos evidencia para:
+	<br>
+Esmeralda A es verde; <br>esmeralda B es verde; <br>esmeralda C es verde, etc.
+
+<p></p>Esto confirma : Todas las esmeraldas son verdes. <p></p>
+
+<p class="fragment">Ahora: defina el predicado verdul para que aplique a todas las cosas que antes de T si son verdes, y a todas las cosas que después de T son azules.</p>
+	<p></p>
+
+	<p class="fragment">Así, también tenemos evidencia para: <br>
+Esmeralda A es verdul; <br> esmeralda B es verdul; <br>esmeralda C es verde, etc.
+verdul</p>
+
+	<p class="fragment">Por tanto: la misma evidencia confirma hipótesis contradictorias, a saber, que las esmeraldas son verdes y azules.</p>	</section>
+
+
+	<section>¿Cómo distinguir entre generalizaciones aceptables como <br> 'Todas las esmeraldas son verdes' y generalizaciones indebidas como 'Todas las esmeraldas son verdules?</section>
+
+
+	<section>
+
+	<div class="doscuadros">
+
+	'María está en este salón <br>y está aprendiendo'
+
+		<br> confirma<br>
+	'Todos en este salón <br>están aprendiendo'
+
+				<br> confirma<br>
+'Si Darío estuviese en este salón, estaría aprendiendo'
+
+		</div>
+	<div class="doscuadros fragment">
+
+		'María está en este salón <br>y está hija única'
+
+		<br> confirma<br>
+	'Todos en este salón<br> son hijos únicos'
+
+				<br> confirma<br>
+'Si Darío estuviese en este salón, sería hijo único'
+
+		</div>
+
+	</section>
+<section>
+Si dos hipótesis son iguales respecto a su soporte, entonces la hipotesis que tenga los predicados más atrincherados se prefiere.
+	</section>
+
+	<section>La solución que Goodman ofrece a su problema depende de un caracter social de los términos. ¿Qué opinan de eso?</section>
+
+<section data-transition="fade-in" data-background="#009933" data-background-transition="zoom"><h3>Para la próxima clase</h3>
+	<ul>
+		<li>Kuhn, Thomas  (1962) <i>La estructura de las revoluciones científicas</i>. Fondo de cultura económica: México. Capítulos 1, 2 (&#9733), 3 (&#9733), 4, <br> 5 (&#9733) y 6 (&#9733)</li>
+	</ul>
+				</section>
+
+
+
+
+
+			</div>
+		</div>
+<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+
+
+		</script>
+
+	</body>
+</html>
